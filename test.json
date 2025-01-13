@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "alg": "RS256",
+      "kid": "maliciousKey",
+      "use": "sig",
+      "e": "AQAB",
+      "n": "maliciousPublicKeyHere"
+    }
+  ]
+}
