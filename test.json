@@ -5,8 +5,14 @@
       "alg": "RS256",
       "kid": "maliciousKey",
       "use": "sig",
-      "e": "AQAB",
-      "n": "maliciousPublicKeyHere"
+      "n": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq2Mm5CYyyf9FcO+v/JbJ
+YXl0W+YC1NxYxn+zbMPsJV1gIuD6nh+ws2kKFtUziiIhplPIwerv3feJdlnEfoIE
+2+u7XXTfXsMr+sfakLVBeJdg7gNRNYFQNlbIsJdEc9OuqugDcDLoQKdap0px8M04
+Y62E49UrBdii48C5J+8uRPUebDZLO6wGoMbLlAgqQxxT5ZQUainEbfLQUcQUHdNB
+E09QLF0a4P6rJHW1A57ZgmGh+6InRg8X7YXKExFYhlU6NSNlx362sVxN0dUw2rkB
+ecpmDUwsWUxdaBXraf48fMwHLojjxpZmHP4f5dTSgvcuNIbDMBnK+0ZSLzSR3/LQ
+uwIDAQAB",
+      "e": "AQAB"
     }
   ]
 }
