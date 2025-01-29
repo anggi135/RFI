@@ -1,5 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-  <script type="text/javascript">
-    alert('XSS Attack!');
-  </script>
+  <animate attributeName="onbegin" from="0" to="1" values="javascript:alert('XSS')" />
 </svg>
