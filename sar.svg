@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <animate attributeName="onbegin" from="0" to="1" values="javascript:alert('XSS')" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg fill="none" viewBox="0 0 21 14" xmlns="http://www.w3.org/2000/svg">
+  <path d="m20.384 7.3201c-3.419 4.1028-6.7077 6.1799-9.8841 6.1799-3.1764 0-6.4651-2.0771-9.8841-6.1799-0.15452-0.18542-0.15452-0.45476 0-0.64018 3.419-4.1028 6.7078-6.1799 9.8841-6.1799 3.1764 0 6.4651 2.0771 9.8841 6.1799 0.1545 0.18542 0.1545 0.45476 0 0.64018zm-9.8841-4.3201c-2.2091 0-4 1.7909-4 4s1.7909 4 4 4c2.2091 0 4-1.7909 4-4s-1.7909-4-4-4z" clip-rule="evenodd" fill="#313131" fill-rule="evenodd"/>
+  
+  <!-- XSS Payload -->
+  <script>
+    alert('XSS via SVG!');
+  </script>
 </svg>
